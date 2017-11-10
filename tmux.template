@@ -1,0 +1,8 @@
+# Change the default $TERM to tmux-256color
+set -g default-terminal "screen-256color"
+
+# Change the prefix key to C-x
+set -g prefix C-x
+unbind C-b
+bind C-x send-prefix
+
